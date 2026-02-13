@@ -1,0 +1,57 @@
+# =========================================
+# IDE specific files
+# =========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+
+# NetBeans
+nbproject/
+
+
+# =========================================
+# Build tool generated files (Maven/Gradle)
+# =========================================
+# Maven
+# 这是最重要的规则，忽略所有编译后的输出
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Maven Wrapper
+.mvn/
+
+
+# =========================================
+# Logs and temporary files
+# =========================================
+# Log files
+*.log
+*.log.*
+
+# Debug log files
+*-debug.log
+
+
+# =========================================
+# Operating System files
+# =========================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
